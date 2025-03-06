@@ -18,3 +18,7 @@ If you like, you can also search for some youtube tutorials.
 # Spin up a dev server
 npm run dev
 ```
+
+# 🌐 Deployment
+
+The site is live at [sabalancec-lv.vercel.app](https://sabalancec-lv.vercel.app)
