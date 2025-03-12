@@ -1,10 +1,22 @@
-<header class="bg-gray-800 p-4">
-	<nav class="container mx-auto">
-		<ul class="flex justify-center space-x-4">
-			<li><a href="/" class="text-white hover:text-gray-400">Home</a></li>
-			<li><a href="/shop" class="text-white hover:text-gray-400">Shop</a></li>
-			<li><a href="/allergens" class="text-white hover:text-gray-400">Allergens</a></li>
-			<li><a href="/account" class="text-white hover:text-gray-400">Account</a></li>
-		</ul>
-	</nav>
+<header class="flex items-center justify-around">
+	<div class="flex items-center">
+		<img src="logo-1.png" alt="logo" />
+		<h1 class="poppins-extrabold text-5xl">
+			<a href="/">Sabalancec</a>
+		</h1>
+	</div>
+
+	<div>
+		<nav>
+			<ul class="poppins-italic flex items-center gap-4 text-xl">
+				<li><a href="/catalogue">Catalogue</a></li>
+				<li><a href="/bestsellers">Bestsellers</a></li>
+				<li><a href="/allergens">Allergens</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li>
+					<a href="/auth/signup" class="rounded-lg bg-black p-2 text-white">Sign Up</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>

@@ -1,1 +1,1 @@
-<h1>Allergens</h1>
+<h1>Allergens page</h1>
