@@ -8,8 +8,11 @@
 
 <Header />
 
-<main class="min-h-screen">
-	{@render children()}
+<main>
+	<div class="relative min-h-screen bg-[url(/colorful-veggies.jpg)] bg-cover bg-center pt-24">
+		<div class="mx-auto w-xl rounded-xl bg-white p-20">
+			{@render children()}
+		</div>
+	</div>
 </main>
-
 <Footer />
